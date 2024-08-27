@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+
+}
+.navbar{
+    width: 200px;
+    background-position: center;
+    height: 75px;
+    margin: auto;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-family: Verdana,  sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(21, 168, 7);
+}
+.history{
+    color: aqua;
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+
+h3{
+    color: blueviolet;
+}
+    
+#mark p , li {
+    color: brown;
+    text-align: center;
+}
+.Control  {
+    color: chartreuse;
+    text-align: center;
+}
+p{
+ text-decoration: dotted;
+ color: blue;
+ font-size: 16px;
+ font-weight: 100;
+ margin: 15px;
+}
+
+.type{
+    color: currentColor;
+    font-size: medium;
+}
+    
